@@ -1,8 +1,8 @@
 <?php
 require_once './vendor/autoload.php';
-use PDO;
 
-$bd = new PDO('mysql:host=localhost;dbname=TheilonAdrian', 'root', '');
+use ExemploPDOMySQL\MySQLConnection; //PDO
+$bd = new MySQLConnection(); //PDO('mysql:host=localhost;dbname=TheilonAdrian', 'root', '');
 
 $comando = $bd ->prepare('SELECT * FROM generos');
 $comando ->execute(); 
