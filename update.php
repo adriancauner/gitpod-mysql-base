@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $comando->execute([':nome' => $_POST['nome'], ':id' => $_POST['id']]);
 
     header('Location:/index.php');
-    ?>
+}?>
 
 <html lang="pt-br">
 <head>
