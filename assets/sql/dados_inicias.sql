@@ -5,7 +5,7 @@ INSERT INTO generos(id,nome) VALUES
 (4, 'Drama'),
 (5, 'Histórias em Quadrinho'),
 (6, 'Livro de Estudo'),
-(7, 'Filosofia'),
+(7, 'Filosofia');
 
 INSERT INTO livros(id, titulo, id_genero) VALUES
 (1, 'Os Miseráveis', 4),
