@@ -7,7 +7,7 @@ INSERT INTO generos(id,nome) VALUES
 (6, 'Livro de Estudo'),
 (7, 'Filosofia'),
 
-INSERT INTO livros (id, titulo, id_genero) VALUES
+INSERT INTO livros(id, titulo, id_genero) VALUES
 (1, 'Os Miseráveis', 4),
 (2, 'Discurso do Método - Renatus Cartesius', 7),
 (3, 'A Culpa é das Estrelas', 4),
